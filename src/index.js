@@ -12,7 +12,7 @@ window.onload = function () {
 
   eightball.addEventListener("click", function () {
     if (question.value.length < 1) {
-      alert("I can't answer without a question");
+      alert("I can't read your mind yet. You need to write a question");
     } else {
       eight.innerText = "";
       const num = Math.floor(Math.random() * Math.floor(answers.length));
