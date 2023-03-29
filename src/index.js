@@ -14,9 +14,13 @@ window.onload = function () {
     if (question.value.length < 1) {
       alert("I can't read your mind yet. You need to write a question");
     } else {
-      eight.innerText = "";
-      const num = Math.floor(Math.random() * Math.floor(answers.length));
-      answer.innerText = answers[num];
+      eightball.classList.add("animate__animated", "animate__shakeX");
+      eightball.addEventListener("animationend", () => {
+        eight.innerText = "";
+        const num = Math.floor(Math.random() * Math.floor(answers.length));
+        answer.innerText = answers[num];
+        eightball.classList.remove("animate__animated", "animate__shakeX");
+      });
     }
   });
 };

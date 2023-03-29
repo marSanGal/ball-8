@@ -38,6 +38,7 @@ div .eight-ball{
   margin: 0 auto;
   margin-bottom: 30px;
   margin-top: 30px;
+  
 }
 
 div .answer {
@@ -57,7 +58,7 @@ div .answer {
 
 #answer {
   padding: 15px;
-  color: lightblue;
+  color: rgb(2, 82, 109);
   letter-spacing: 2px;
 }
 
