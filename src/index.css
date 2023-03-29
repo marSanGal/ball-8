@@ -1,0 +1,63 @@
+body {
+  background: #fff;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 2em;
+  margin-bottom: 0px;
+}
+
+h2 {
+  margin-top: 0px;
+  font-weight: 100;
+}
+
+.content{
+  width: 50vw;
+  margin: 0 auto;
+  margin-top: 10vh;
+  border: 1px dotted black;
+  text-align: center;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div .eight-ball{
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+div .answer {
+  background-color: #333;
+  border: 1px solid #333;
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+  margin: 25% auto;
+}
+
+p#eight {
+  font-size: 5em;
+  margin: 20% auto;
+  color: white;
+}
+
+p#answer {
+  padding: 15px;
+  color: lightblue;
+  letter-spacing: 2px;
+}
+
+#question {
+  margin: 20px;
+  padding: 10px;
+  width: 35vw;
+}
+
